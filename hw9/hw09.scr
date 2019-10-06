@@ -1,0 +1,25 @@
+Script started on Mon Jul 15 09:36:04 2019
+[?1034hbash-3.2$ date
+Mon Jul 15 09:36:11 PDT 2019
+bash-3.2$ las[K[Ks -l
+total 96
+-rw-r--r--  1 robertgaines  staff    450 Jul 14 23:10 Makefile
+-rw-r--r--  1 robertgaines  staff   1057 Jul 15 09:25 Rectangle.h
+-rw-r--r--  1 robertgaines  staff    345 Jul 15 09:25 Shape.h
+-rw-r--r--  1 robertgaines  staff   1080 Jul 15 09:25 Triangle.h
+-rwxr-xr-x  1 robertgaines  staff  21880 Jul 15 09:27 hw09
+-rw-r--r--@ 1 robertgaines  staff    247 Jul 15 09:27 hw09.cpp
+drwxr-xr-x@ 3 robertgaines  staff     96 Jul 15 09:22 hw09.dSYM
+-rw-r--r--  1 robertgaines  staff     43 Jul 15 09:36 hw09.scr
+bash-3.2$ make all
+make: Nothing to be done for `all'.
+bash-3.2$ ./hw09
+Perimeter is: 18
+Area is: 0Perimeter is: 16
+Perimeter is: 18
+bash-3.2$ make tar
+tar cf hw09.tar Makefile hw09.cpp Shape.h Triangle.h Rectangle.h 
+bash-3.2$ ecxi[K[K[Kic[K[Kxit
+exit
+
+Script done on Mon Jul 15 09:36:47 2019

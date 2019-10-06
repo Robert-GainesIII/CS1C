@@ -1,0 +1,12 @@
+Script started on Tue Jul 23 23:59:25 2019
+[?1034hbash-3.2$ make all
+make: Nothing to be done for `all'.
+bash-3.2$ make alltaralltarscript hw13.scr[C[C[C[C[C[C[C[C[C[C[7Pmake all[2P./hw13make all[2P./hw13make all[2P./hw13[K[K[K[K[K[Kh[K./hw14
+0  1  2  3  4  5  6  7  8  9  0  46.567  93.134  139.701  186.268  232.835  279.402  325.969  372.536  419.103  0  93.134  139.701  186.268  232.835  279.402  325.969  372.536  419.103  419.103  372.536  325.969  279.402  232.835  186.268  139.701  93.134  0  bash-3.2$ make tar
+tar cf hw14.tar  hw14.scr Makefile hw14.cpp doublyLinkedList.h
+bash-3.2$ end
+bash: end: command not found
+bash-3.2$ exit
+exit
+
+Script done on Tue Jul 23 23:59:47 2019

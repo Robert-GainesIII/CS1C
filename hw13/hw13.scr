@@ -1,0 +1,19 @@
+Script started on Thu Jul 18 23:30:57 2019
+[?1034hbash-3.2$ date
+Thu Jul 18 23:31:00 PDT 2019
+bash-3.2$ ls -l
+total 104
+-rw-r--r--  1 robertgaines  staff    217 Jul 18 23:05 Makefile
+-rwxr-xr-x  1 robertgaines  staff  26728 Jul 18 23:30 hw13
+-rw-r--r--  1 robertgaines  staff   1225 Jul 18 23:30 hw13.cpp
+drwxr-xr-x@ 3 robertgaines  staff     96 Jul 18 23:08 hw13.dSYM
+-rw-r--r--  1 robertgaines  staff     43 Jul 18 23:30 hw13.scr
+-rw-r--r--  1 robertgaines  staff   1938 Jul 18 23:03 queueADT.h
+-rw-r--r--  1 robertgaines  staff   6517 Jul 18 23:26 queueAsArray.h
+bash-3.2$ h[K./hw13
+the queue is empty.
+Exception Thrown.
+bash-3.2$ exit
+exit
+
+Script done on Thu Jul 18 23:31:17 2019

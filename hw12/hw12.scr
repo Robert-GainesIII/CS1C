@@ -1,0 +1,95 @@
+Script started on Thu Jul 18 22:59:58 2019
+[?1034hbash-3.2$ ls[K[Kdate
+Thu Jul 18 23:00:03 PDT 2019
+bash-3.2$ ls -l
+total 112
+-rw-r--r--@ 1 robertgaines  staff    217 Jul 18 22:59 Makefile
+-rwxr-xr-x  1 robertgaines  staff  31140 Jul 18 22:58 hw12
+-rw-r--r--@ 1 robertgaines  staff   2344 Jul 18 22:58 hw12.cpp
+-rw-r--r--  1 robertgaines  staff     43 Jul 18 22:59 hw12.scr
+-rw-r--r--@ 1 robertgaines  staff   1938 Jul 18 21:29 queueADT.h
+-rw-r--r--@ 1 robertgaines  staff   6520 Jul 18 22:48 queueAsArray.h
+bash-3.2$ hw1[K[K[K./hw12
+Is intQ empty(it should be): 1
+Is intQ empty(it should not be): 0
+Is intQ Full(it should not be): 0
+Is intQ Full(it should be): 1
+{8 0 1 2 3 4 5 6 7 8  }
+{8 0 1 2 3 4 5 6 7  }
+{0  }
+{0  }
+{  }
+{0 1  }
+{0 245.563  }
+{ M  }
+{0 1 2  }
+{0 245.563 491.126  }
+{ M Mi  }
+{0 1 2 3  }
+{0 245.563 491.126 736.69  }
+{ M Mi Mis  }
+{0 1 2 3 4  }
+{0 245.563 491.126 736.69 982.253  }
+{ M Mi Mis Miss  }
+{0 1 2 3 4 5  }
+{0 245.563 491.126 736.69 982.253 1227.82  }
+{ M Mi Mis Miss Missi  }
+DELETING NOW.. 
+{0 1 2 3 4  }
+{0 245.563 491.126 736.69 982.253  }
+{ M Mi Mis Miss  }
+{0 1 2 3  }
+{0 245.563 491.126 736.69  }
+{ M Mi Mis  }
+{0 1 2  }
+{0 245.563 491.126  }
+{ M Mi  }
+{0 1  }
+{0 245.563  }
+{ M  }
+ADDING NOW.. 
+{0 1 2  }
+{0 245.563 491.126  }
+{ M Mi  }
+{0 1 2 3  }
+{0 245.563 491.126 736.69  }
+{ M Mi Mis  }
+{0 1 2 3 4  }
+{0 245.563 491.126 736.69 982.253  }
+{ M Mi Mis Miss  }
+{0 1 2 3 4 5  }
+{0 245.563 491.126 736.69 982.253 1227.82  }
+{ M Mi Mis Miss Missi  }
+{4 1 2 3 4 5 0  }
+{982.253 245.563 491.126 736.69 982.253 1227.82 0  }
+{Miss M Mi Mis Miss Missi   }
+DELETING NOW.. 
+{4 1 2 3 4 5  }
+{982.253 245.563 491.126 736.69 982.253 1227.82  }
+{Miss M Mi Mis Miss Missi  }
+{4 1 2 3 4  }
+{982.253 245.563 491.126 736.69 982.253  }
+{Miss M Mi Mis Miss  }
+{4 1 2 3  }
+{982.253 245.563 491.126 736.69  }
+{Miss M Mi Mis  }
+The first item of the int Queue is: 1
+The first item of the double Queue is: 245.563
+The first item of the string Queue is: M
+bash-3.2$ dae[Kte
+Thu Jul 18 23:00:22 PDT 2019
+bash-3.2$ make tar
+tar cf hw12.tar  hw12.scr Makefile hw12.cpp queueADT.h queueAsArray.h 
+bash-3.2$ ls -l
+total 160
+-rw-r--r--@ 1 robertgaines  staff    217 Jul 18 22:59 Makefile
+-rwxr-xr-x  1 robertgaines  staff  31140 Jul 18 22:58 hw12
+-rw-r--r--@ 1 robertgaines  staff   2344 Jul 18 22:58 hw12.cpp
+-rw-r--r--  1 robertgaines  staff   2213 Jul 18 23:00 hw12.scr
+-rw-r--r--  1 robertgaines  staff  21504 Jul 18 23:00 hw12.tar
+-rw-r--r--@ 1 robertgaines  staff   1938 Jul 18 21:29 queueADT.h
+-rw-r--r--@ 1 robertgaines  staff   6520 Jul 18 22:48 queueAsArray.h
+bash-3.2$ exit
+exit
+
+Script done on Thu Jul 18 23:00:36 2019
