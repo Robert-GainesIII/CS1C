@@ -1,0 +1,18 @@
+Script started on Thu Jun 13 23:27:19 2019
+[?1034hbash-3.2$ ls -i[Kl
+total 104
+-rw-r--r--@ 1 robertgaines  staff    593 Jun 10 15:44 Card.cpp
+-rw-r--r--@ 1 robertgaines  staff    845 Jun 10 15:44 Card.h
+-rw-r--r--@ 1 robertgaines  staff   2650 Jun 13 22:30 Deck.cpp
+-rw-r--r--@ 1 robertgaines  staff    411 Jun 13 22:15 Deck.h
+-rw-r--r--@ 1 robertgaines  staff    414 Jun 13 23:17 Makefile
+-rw-r--r--@ 1 robertgaines  staff    507 Jun 13 23:17 hw02.cpp
+-rw-r--r--  1 robertgaines  staff     43 Jun 13 23:27 hw02.scr
+-rwxr-xr-x  1 robertgaines  staff  21808 Jun 13 22:37 start
+bash-3.2$ make all
+Makefile:8: *** missing separator.  Stop.
+bash-3.2$ ./ho[Kw02
+bash: ./hw02: No such file or directory
+bash-3.2$ make tar
+Makefile:8: *** missing separator.  Stop.
+bash-3.2$ 
